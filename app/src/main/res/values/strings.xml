@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_world">Hello world!!</string>
+    <string name="bonus_name">Bonus programm</string>
+    <string name="change_text">Change text</string>
+    <string name="hello_world1">World hello!!!</string>
+    <string name="button_text2">I am change</string>
+</resources>
