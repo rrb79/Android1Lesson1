@@ -24,6 +24,14 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                setContentView(R.layout.account_layout);
+                Snackbar.make(view,"Autorized",Snackbar.LENGTH_INDEFINITE).setAction("for mail", new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Toast.makeText(MainActivity.this
+                                ,"Click for mail",Toast.LENGTH_SHORT).show();
+                    }
+                }).show();
                 new Intent(MainActivity.this,AccountActivity.class);
             }
         });
