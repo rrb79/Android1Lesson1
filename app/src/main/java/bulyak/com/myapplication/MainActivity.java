@@ -24,15 +24,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.account_layout);
-                Snackbar.make(view,"Autorized",Snackbar.LENGTH_INDEFINITE).setAction("for mail", new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Toast.makeText(MainActivity.this
-                                ,"Click for mail",Toast.LENGTH_SHORT).show();
-                    }
-                }).show();
-                new Intent(MainActivity.this,AccountActivity.class);
+                Toast.makeText(MainActivity.this, "Autorized", Toast.LENGTH_LONG).show();
             }
         });
 
@@ -54,9 +46,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, AccountActivity.class);
+                startActivity(intent);
             }
         });
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
@@ -74,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.account:
                 Intent intent = new Intent(MainActivity.this, AccountActivity.class);
+                startActivity(intent);
                 break;
             default:
                 return super.onOptionsItemSelected(item);
