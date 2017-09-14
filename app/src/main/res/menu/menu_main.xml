@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="bulyak.com.android1lesson2.MainActivity">
     <menu />
+
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
