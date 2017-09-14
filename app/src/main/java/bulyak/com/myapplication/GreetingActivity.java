@@ -1,26 +1,24 @@
 package bulyak.com.myapplication;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Button;
 
+/**
+ * Created by Администратор on 14.09.2017.
+ */
 
-public class MainActivity extends AppCompatActivity {
+public class GreetingActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
-        Button button;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.greeting_layout);
-        button=(Button)findViewById(R.id.greeting_button);
 
+    }
 
-
-          }
 
 
     @Override
@@ -32,14 +30,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        switch (item.getItemId()) {
+        switch (item.getItemId()){
             case R.id.action_quit:
                 finish();
                 break;
             case R.id.action_settings:
 
+
             case R.id.account:
-                Intent intent=new Intent(MainActivity.this,AccountActivity.class);
+
                 break;
             default:
                 return super.onOptionsItemSelected(item);

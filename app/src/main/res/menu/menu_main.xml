@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="bulyak.com.android1lesson2.MainActivity">
+    <menu />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/seiting"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_quit"
+        android:orderInCategory="200"
+        android:title="@string/exit" />
+
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:orderInCategory="300"
+        android:title="Account"
+        app:showAsAction="ifRoom" />
+
+</menu>

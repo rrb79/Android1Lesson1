@@ -1,8 +1,16 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Plush Shar</string>
     <string name="hello_world">Hello world!!</string>
     <string name="bonus_name">Bonus programm</string>
     <string name="change_text">Change text</string>
     <string name="hello_world1">World hello!!!</string>
     <string name="button_text2">I am change</string>
+    <string name="name_autorized_phone">Enter phone</string>
+    <string name="seiting">Seitung</string>
+    <string name="exit">Exit</string>
+    <string name="vkontatke">VKontakte</string>
+    <string name="bonus_card">Bonus Card</string>
+    <string name="accouting">Авторизация</string>
+
+    <!-- Strings related to login -->
 </resources>

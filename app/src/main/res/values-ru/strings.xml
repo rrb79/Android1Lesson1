@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Мое приложение</string>
+    <string name="app_name">Плюшевый шар</string>
     <string name="hello_world">Привет мир!!!</string>
     <string name="bonus_name">Бонусная программа</string>
     <string name="change_text">Меняем текст</string>
     <string name="hello_world1">Здравствуй мир</string>
     <string name="button_text2">Я меняю</string>
+    <string name="name_autorized_phone">Ввести телефон</string>
+    <string name="seiting">Настройка</string>
+    <string name="exit">Закрыть</string>
+    <string name="vkontatke">ВКонтакте</string>
+    <string name="bonus_card">Бонусная карта</string>
+    <string name="accouting">Авторизация</string>
 </resources>
