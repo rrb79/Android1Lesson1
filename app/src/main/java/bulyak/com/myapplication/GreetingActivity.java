@@ -29,14 +29,11 @@ public class GreetingActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-
         switch (item.getItemId()){
             case R.id.action_quit:
                 finish();
                 break;
             case R.id.action_settings:
-
-
             case R.id.account:
 
                 break;

@@ -7,9 +7,13 @@
     <string name="hello_world1">Здравствуй мир</string>
     <string name="button_text2">Я меняю</string>
     <string name="name_autorized_phone">Ввести телефон</string>
-    <string name="seiting">Настройка</string>
+    <string name="seiting">Message blank / n enter the text and try again</string>
     <string name="exit">Закрыть</string>
     <string name="vkontatke">ВКонтакте</string>
     <string name="bonus_card">Бонусная карта</string>
     <string name="accouting">Авторизация</string>
+    <string name="fb">facebook</string>
+    <string name="google">GOOGLE</string>
+    <string name="no_messange">Сообщение пустое /n введите текст и повторите попытку</string>
+    <string name="messange_send">Send</string>
 </resources>

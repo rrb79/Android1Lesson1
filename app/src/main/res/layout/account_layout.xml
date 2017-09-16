@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:weightSum="1">
 
-    <Button
-        android:id="@+id/account_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/accouting" />
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:id="@+id/textView1" />
+        android:layout_weight="0.28" />
 
 
     <Button
-        android:id="@+id/account_button2"
+        android:id="@+id/button_accountVC"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:drawableLeft="@drawable/ic_vk"
+        android:text="@string/vkontatke" />
 
     <Button
-        android:id="@+id/account_button3"
+        android:id="@+id/button_account_fb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:drawableLeft="@drawable/ic_facebook"
+        android:text="@string/fb" />
 
     <Button
-        android:id="@+id/account_button4"
+        android:id="@+id/button_account_google"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:drawableLeft="@drawable/ic_google_plus"
+        android:text="@string/google" />
 </LinearLayout>

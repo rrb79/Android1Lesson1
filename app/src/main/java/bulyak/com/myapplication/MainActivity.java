@@ -2,7 +2,6 @@ package bulyak.com.myapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -16,7 +15,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         Button button;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.greeting_layout);
@@ -33,11 +32,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Privet Snack bar", Snackbar.LENGTH_SHORT)
-                        .setAction("Set Action", new View.OnClickListener() {
+                        .setAction("Send Massenge", new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
                                 Toast.makeText(MainActivity.this,
                                         "Toast", Toast.LENGTH_SHORT).show();
+                                Intent intent = new Intent(MainActivity.this, MessangeActivity.class);
+                                startActivity(intent);
                             }
                         }).show();
             }
@@ -45,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, AccountActivity.class);
+                Intent intent = new Intent(MainActivity.this, MessangeActivity.class);
                 startActivity(intent);
             }
         });

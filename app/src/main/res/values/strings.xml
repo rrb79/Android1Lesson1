@@ -6,11 +6,16 @@
     <string name="hello_world1">World hello!!!</string>
     <string name="button_text2">I am change</string>
     <string name="name_autorized_phone">Enter phone</string>
-    <string name="seiting">Seitung</string>
+    <string name="seiting">Message blank / n enter the text and try again</string>
     <string name="exit">Exit</string>
     <string name="vkontatke">VKontakte</string>
     <string name="bonus_card">Bonus Card</string>
     <string name="accouting">Авторизация</string>
+    <string name="fb">facebook</string>
+    <string name="google">GOOGLE</string>
+    <integer name="com_vk_sdk_AppId">6185335</integer>
+    <string name="no_messange">Message blank / n enter the text and try again</string>
+    <string name="messange_send">Send</string>
 
     <!-- Strings related to login -->
 </resources>
