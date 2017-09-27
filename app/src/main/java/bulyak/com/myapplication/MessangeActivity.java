@@ -7,7 +7,13 @@ import android.widget.TextView;
 /**
  * Created by Администратор on 15.09.2017.
  */
-
+/*
+1.Проверить авторизирован или нет
+проверить есть файл с информацией по гостю
+2.Авторизация
+через e-mail или телефон
+3.
+ */
 public class MessangeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
