@@ -1,8 +1,10 @@
-package bulyak.com.myapplication;
+package bulyak.com.myapplication.ui;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+
+import bulyak.com.myapplication.R;
 
 /**
  * Created by Администратор on 15.09.2017.

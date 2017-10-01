@@ -1,4 +1,4 @@
-package bulyak.com.myapplication;
+package bulyak.com.myapplication.ui;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -8,6 +8,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import bulyak.com.myapplication.R;
 
 /**
  * Created by Администратор on 14.09.2017.

@@ -14,22 +14,22 @@
 
     <Button
         android:id="@+id/button_accountVC"
-        android:layout_width="match_parent"
+        android:layout_width="188dp"
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_vk"
         android:text="@string/vkontatke" />
 
     <Button
         android:id="@+id/button_account_fb"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="176dp"
+        android:layout_height="32dp"
         android:drawableLeft="@drawable/ic_facebook"
         android:text="@string/fb" />
 
     <Button
         android:id="@+id/button_account_google"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="163dp"
+        android:layout_height="40dp"
         android:drawableLeft="@drawable/ic_google_plus"
         android:text="@string/google" />
 </LinearLayout>

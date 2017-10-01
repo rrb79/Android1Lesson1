@@ -15,5 +15,8 @@
     <string name="fb">facebook</string>
     <string name="google">GOOGLE</string>
     <string name="no_messange">Сообщение пустое /n введите текст и повторите попытку</string>
-    <string name="messange_send">Send</string>
+    <string name="messange_send">Отправить</string>
+    <string name="inputTextIdCard">Ввести номер карты</string>
+    <string name="inputTextPhone">Введите телефон</string>
+    <string name="inputTextEmail">Введите e-mail</string>
 </resources>

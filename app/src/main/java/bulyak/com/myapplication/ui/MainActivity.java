@@ -1,4 +1,4 @@
-package bulyak.com.myapplication;
+package bulyak.com.myapplication.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,7 +9,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
+
+import bulyak.com.myapplication.R;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -17,15 +20,27 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Button button;
+        View editTextId;
+        EditText editTextPhone;
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.greeting_layout);
-        button = (Button) findViewById(R.id.greeting_button);
-        button.setOnClickListener(new View.OnClickListener() {
+
+        editTextId=findViewById(R.id.greetin_edittext_idcard);
+        editTextId.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Autorized", Toast.LENGTH_LONG).show();
+
             }
         });
+
+//        button = (Button) findViewById(R.id.greeting_button);
+//        button.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Toast.makeText(MainActivity.this, "Autorized", Toast.LENGTH_LONG).show();
+//            }
+//        });
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -43,13 +58,13 @@ public class MainActivity extends AppCompatActivity {
                         }).show();
             }
         });
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MessangeActivity.class);
-                startActivity(intent);
-            }
-        });
+//        button.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(MainActivity.this, MessangeActivity.class);
+//                startActivity(intent);
+//            }
+ //       });
     }
 
     @Override

@@ -16,7 +16,7 @@
 
     <item
         android:id="@+id/account"
-        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:icon="@drawable/ic_account_circle_24dp"
         android:orderInCategory="301"
         android:title="Account"
         app:showAsAction="ifRoom" />

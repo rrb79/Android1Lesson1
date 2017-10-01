@@ -16,6 +16,9 @@
     <integer name="com_vk_sdk_AppId">6185335</integer>
     <string name="no_messange">Message blank / n enter the text and try again</string>
     <string name="messange_send">Send</string>
+    <string name="inputTextIdCard">Enter card number</string>
+    <string name="inputTextPhone">Enter phone</string>
+    <string name="inputTextEmail">Enter you e-mail</string>
 
     <!-- Strings related to login -->
 </resources>
